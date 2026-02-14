@@ -493,7 +493,17 @@
                     { nombre: "DIP SWITCHS", img: "img/sensores/5700/FF/4.jpeg" }
                 ],
                 "SF12": [
-                    { nombre: "Separator 1-2", img: "img/sensores/5700/SF12/1.png" }
+                    { nombre: "Separator 1-2", img: "img/sensores/5700/SF12/1.jpeg" },
+                    { nombre: "Separator 1-2", img: "img/sensores/5700/SF12/2.png" },
+                    { nombre: "Separator 1-2", img: "img/sensores/5700/SF12/3.png" },
+                    { nombre: "Separator 1-2", img: "img/sensores/5700/SF12/4.jpeg" },
+                    { nombre: "Separator 1-2", img: "img/sensores/5700/SF12/5.jpeg" },
+                    { nombre: "Separator 1-2", img: "img/sensores/5700/SF12/6.jpeg" },
+                    { nombre: "Separator 1-2", img: "img/sensores/5700/SF12/7.jpeg" },
+                    { nombre: "Separator 1-2", img: "img/sensores/5700/SF12/8.jpeg" },
+                    { nombre: "Separator 1-2", img: "img/sensores/5700/SF12/9.jpeg" },
+                    { nombre: "Separator 1-2", img: "img/sensores/5700/SF12/10.jpeg" },
+                    { nombre: "Separator 1-2", img: "img/sensores/5700/SF12/11.jpeg" }
                 ],
                 "SF34": [
                     { nombre: "Separator 3-4", img: "img/sensores/5700/SF34/1.png" }
@@ -529,9 +539,11 @@
 
         const dbSpares = {
             "MX5700": [
-                { titulo: "Reemplazo Pick Module", archivo: "esto es una prueba.pdf", img : "img/sensores/5700/MINI/prueba de miniatura.png" },
-                { titulo: "Desarme Main Body", archivo: "DESARME_BODY.pdf" },
-                { titulo: "Cambio de Correas", archivo: "CAMBIO_CORREAS.pdf" }
+                { titulo: "Note Separator 1,2 / 3,4", archivo: "esto es una prueba.pdf", img : "img/sensores/5700/MINI/SF1234.png" },
+                { titulo: "Main Body", archivo: "DESARME_BODY.pdf" },
+                { titulo: "Carriage", archivo: "CAMBIO_CORREAS.pdf" },
+                { titulo: "Cable Rotary", archivo: "CAMBIO_CORREAS.pdf" },
+                { titulo: "Feed and Frame", archivo: "CAMBIO_CORREAS.pdf" },
             ],
             "MS500AR": [
                 { titulo: "Bill Checker Unit", archivo: "BCU.pdf", img : "img/sensores/MS500/MINI/BCU.png" },
@@ -809,7 +821,6 @@
             }
         });
         function viewPDF(rutaPdf) {
-    // Si la ruta existe, abrimos una pestaña nueva
     if (rutaPdf) {
         window.open(rutaPdf, '_blank');
     } else {
